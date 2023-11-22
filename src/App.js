@@ -22,7 +22,7 @@ function App() {
       </Greet>
       <Greet name = 'Ravan'heroname = 'Batman'></Greet>
 
-      
+      {/* Helloworld */}
       <Welcome name = 'Ramu' heroname = 'Thor'></Welcome>
       <Welcome name = 'Raju' heroname = 'Superman'></Welcome>
       <Welcome name = 'Ravan'heroname = 'Batman'></Welcome>

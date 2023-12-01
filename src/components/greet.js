@@ -14,6 +14,6 @@ const Greet = (props) => {
     </div>
     )
 }
-
 export default Greet;
+
 //FunctionalComponents using props by {props.name}

@@ -5,6 +5,8 @@ import Welcome from './components/Welcome';
 import Hello from './components/Class_component';
 import Function from './components/Functional_component';
 import Hola from './components/Hello';
+import Name from './components/name';
+import Message from './components/Message';
 function App() {
   return (
     <div className="App">
@@ -14,7 +16,7 @@ function App() {
       <Hello/>
       <Function/> */}
       {/* <Hola/> */}
-      <Greet name = 'Ramu' heroname = 'Thor'>
+      {/* <Greet name = 'Ramu' heroname = 'Thor'>
         <p>This is children</p>
       </Greet>
       <Greet name = 'Raju' heroname = 'Superman'>
@@ -23,10 +25,13 @@ function App() {
       <Greet name = 'Ravan'heroname = 'Batman'></Greet>
 
       {/* Helloworld */}
-      <Welcome name = 'Ramu' heroname = 'Thor'></Welcome>
+      {/* <Welcome name = 'Ramu' heroname = 'Thor'></Welcome>
       <Welcome name = 'Raju' heroname = 'Superman'></Welcome>
       <Welcome name = 'Ravan'heroname = 'Batman'></Welcome>
-    </div>
+   
+      <Name class = 'tenth_class' age = '21'>Helloworld</Name> */} 
+      <Message> </Message>
+      </div>
   );
 }
 
